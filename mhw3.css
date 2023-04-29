@@ -1,0 +1,85 @@
+form {
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+}
+
+
+body {
+	background-image: url(https://c.wallhere.com/photos/b9/19/One_Piece_Monkey_D_Luffy_anime-231596.jpg!d);
+	background-repeat: no repeat;
+	background-size: cover;
+  font-family: Helvetica, sans-serif;
+}
+
+#album-view {
+	margin: 20px 0;
+	margin-left: auto;
+	margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 66%;
+	height: 75%;
+	overflow: Auto;
+	scrollbar-base-color: #000000;
+  scrollbar-arrow-color: #CCCCCC;
+  scrollbar-track-color: #CCCCCC;
+}
+
+
+ .blocco{
+	margin:10px;
+	border: 1px solid slategray;
+	padding: 5px;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	background-color:#F5F5F5;
+}
+
+div img{
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.grassetto{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+h1{
+	color: white;
+	background-image: url(https://wallpapers.com/images/featured-full/all-anime-2e92kjl5ii5i7rwz.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 15%;
+}
+
+
+
+@media (max-width:600px){
+	.blocco{
+		width: 40%;
+	}
+	form{
+		width: 100%;
+	}
+
+	#album-view {
+	width: 100%;
+	margin: 0px;
+	height: 100%;
+	justify-content: center;
+	}
+	body{
+			background-image: url(https://w0.peakpx.com/wallpaper/379/247/HD-wallpaper-sabo-anime-manga-one-piece.jpg);
+
+	}
+	label{
+		color: white;
+	}
+}
+
